@@ -41,7 +41,7 @@ function Rsvp({ }: Props) {
                             <option value="4">4</option>
                         </select>
                         <select name="attendees" className='w-full md:w-1/2 bg-[#EDF5F7] py-4 px-3 text-gray-700 leading-tight focus:ring-0 focus:outline-yellow-500 focus:shadow-outline border-0' required>
-                            <option value="Attending">I'm Attending</option>
+                            <option value="Attending">I&apos;m Attending</option>
                             <option value="Attending only ceremony">Attending only ceremony</option>
                             <option value="Attending only at the wedding party">Attending only at the wedding party</option>
                         </select>

@@ -31,7 +31,7 @@ function HeroCaption({ }: Props) {
                     transition={{
                         duration: 3
                     }}
-                    className='uppercase font-light border-y-2 p-2'>We're getting married</motion.div>
+                    className='uppercase font-light border-y-2 p-2'>We&apos;re getting married</motion.div>
             </div>
             <div className='absolute inset-0 bg-black z-10 opacity-50'></div>
         </>
