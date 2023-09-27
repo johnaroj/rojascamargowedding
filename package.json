@@ -1,6 +1,7 @@
 {
   "name": "rojascamargowedding",
   "version": "0.1.0",
+  "homepage": "https://rojascamargowedding.info",
   "private": true,
   "scripts": {
     "dev": "next dev",
