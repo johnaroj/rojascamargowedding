@@ -31,7 +31,7 @@ function Rsvp({}: Props) {
       );
   };
   return (
-    <div className="h-screen flex flex-col max-w-6xl px-10 pt-10 mx-auto items-center">
+    <div className="min-h-screen flex flex-col max-w-6xl px-10 pt-10 mx-auto items-center">
       <div className="mb-4 pt-20 flex flex-col justify-center items-center">
         <h6 className="uppercase text-[#B76E78] text-md mb-3 font-semibold tracking-widest">
           RSVP

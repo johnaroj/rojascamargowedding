@@ -1,18 +1,15 @@
-
-import About from './components/About'
-import Event from './components/Event'
-import Gallery from './components/Gallery'
-import Hero from './components/Hero'
-import Navbar from './components/Navbar'
-import Story from './components/Story'
-import Rsvp from './components/Rsvp'
-import Footer from './components/Footer'
-
+import About from "./components/About";
+import Event from "./components/Event";
+import Gallery from "./components/Gallery";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import Story from "./components/Story";
+import Rsvp from "./components/Rsvp";
+import Footer from "./components/Footer";
 
 export default function Home() {
-
   return (
-    <div className='min-h-screen flex flex-col'>
+    <div className="flex flex-col">
       <Navbar />
       <section id="home">
         <Hero />
@@ -35,7 +32,6 @@ export default function Home() {
       <section id="contact">
         <Footer />
       </section>
-
     </div>
-  )
+  );
 }
