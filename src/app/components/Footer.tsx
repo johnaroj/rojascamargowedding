@@ -18,7 +18,7 @@ function Footer({}: Props) {
         <div className="w-[60px] h-0.5 bg-[#B76E78]"></div>
       </div>
       <div className="relative flex items-center justify-center w-full mt-32">
-        <p className="text-white w-1/2 text-right pr-3">
+        <p className="text-white w-1/2 text-center pr-3">
           info@rojascamargowedding.com
         </p>
       </div>

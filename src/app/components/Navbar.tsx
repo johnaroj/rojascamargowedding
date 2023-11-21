@@ -171,10 +171,10 @@ function Navbar() {
           className="flex flex-col lg:flex-row"
         >
           <Link
-            href="#family"
+            href="#upload"
             onClick={() => setOpen(false)}
             className={`uppercase ${
-              section === "family" ? "text-[#B76E78]" : "text-white"
+              section === "upload" ? "text-[#B76E78]" : "text-white"
             }  font-semibold py-3 px-2.5 `}
           >
             upload

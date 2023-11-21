@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Story from "./components/Story";
 import Rsvp from "./components/Rsvp";
 import Footer from "./components/Footer";
+import Upload from "./components/Upload";
 
 export default function Home() {
   return (
@@ -22,6 +23,9 @@ export default function Home() {
       </section>
       <section id="gallery">
         <Gallery />
+      </section>
+      <section id="upload">
+        <Upload />
       </section>
       <section id="event">
         <Event />
