@@ -37,6 +37,7 @@ function Gallery({}: Props) {
         src="/images/kiss.jpg"
         fill
         sizes="100vh"
+        priority
         className="object-cover z-0"
       />
       <div className="absolute inset-0 flex flex-col items-center mt-32 text-white text-4xl font-bold z-20 space-y-6 text-center">
@@ -72,6 +73,7 @@ function Gallery({}: Props) {
               src={image.href}
               fill
               sizes="100vh"
+              priority
               className="object-cover"
             />
           </SwiperSlide>
