@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
-    "@headlessui/react": "^1.7.15",
+    "@headlessui/react": "^1.7.17",
     "@tailwindcss/forms": "^0.5.3",
     "@types/node": "20.3.1",
     "@types/react": "18.2.13",
